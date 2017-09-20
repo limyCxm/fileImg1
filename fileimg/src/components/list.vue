@@ -51,6 +51,7 @@ export default {
     }
     .list>ul>li:hover{
         color: #5bc3f6;
+        cursor: pointer;
     }
 </style>
 
