@@ -13,7 +13,7 @@
             </ul>
         </div>
         <div class="addTag">
-            <button>+</button>
+            <button @click="showAlert">+</button>
         </div>
 
     </div>
@@ -48,6 +48,9 @@ export default {
     methods: {
         handleClick(id) {
             alert(id);
+        },
+        showAlert(){
+            this.$emit('showshade');
         }
     }
 }

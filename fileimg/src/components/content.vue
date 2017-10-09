@@ -1,6 +1,6 @@
 <template>
     <section class="detail">
-        <p>图片浏览</p>
+        <p>图片浏览1</p>
     </section>
 </template>
 <script>
